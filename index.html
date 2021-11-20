@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <title>Basic Banking System</title>
+
+
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="img/logo.png" alt="logo"></div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="/customers.html">Customers </a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">National Bank</p>
+                <p class="text-small">At your service any time any where</p>
+                <div class="buttons">
+                    <a href="/customers.html"><button class="btn">Transfer Money</button></a>
+                    <a href="/customers.html"><button class="btn">Transaction History</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <div class="paras">
+            <p class="sectionTag text-big">INTERNET BANKING</p>
+            <p class="sectionSubTag text-small">Internet Banking, also known as net-banking or online banking,
+                is an electronic payment system that enables the customer of a bank or a financial institution
+                to make financial or non-financial transactions online via the internet</p>
+        </div>
+        <div class="thumbnail">
+            <img src="/img/ib.jpg" alt="bank image" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="section section-left">
+        <div class="paras">
+            <p class="sectionTag text-big">ONLINE MONEY TRANSFER</p>
+            <p class="sectionSubTag text-small">Online money transfer is the modern-day equivalent of wiring money:
+                You can send someone money instantaneously simply by transferring money
+                (or the data that represents that money) from you to another person.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="/img/omt.jpg" alt="money image" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="paras">
+            <p class="sectionTag text-big">INSURANCE</p>
+            <p class="sectionSubTag text-small">Bank insurance is a guarantee by the Federal Deposit Insurance
+                Corporation (FDIC)
+                of deposits in a bank. Bank insurance helps protect individuals who deposit their
+                savings in banks against commercial bank insolvency.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="/img/insu.jpg" alt="bank image" class="imgFluid">
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <h1 class="text-center">Contact Us</h1>
+        <div class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your name">
+            <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter Your Phone">
+            <input class="form-input" type="email" name="email" id="email" placeholder="Enter Your email">
+            <textarea class="form-input" name="text" id="text" cols="30" rows="5"
+                placeholder="Ellaborate your concern"></textarea>
+            <button class="btn btn-sm btn-dark">Submit</button>
+        </div>
+    </section>
+
+    <footer class="background">
+        <p class="text-footer">
+            Copyright &copy; 2021 - This Project is made by Krushna Borse- All rights reserved
+        </p>
+    </footer>
+    <script src="assets/js/resp.js"></script>
+
+    <!-- spalsh screen js -->
+    <script>
+        var preloader = document.getElementById("loading");
+        function loader() {
+            preloader.style.display = 'none';
+        }
+    </script>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+
+    <!-- aos data  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 700,
+        });
+    </script>
+
+</body>
+
+</html>
