@@ -1,0 +1,64 @@
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background: rgba(0, 0, 0, 0.7) url('/img/bd.jpg');
+}
+
+/* navbar css starts here  */
+.bg-light{
+    background: rgba(0, 0, 0, 0.7) url('/img/bg.jpg');
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.0rem;
+    color: #02060c!important;
+}
+
+.nav-link{
+    color: #0a0101!important;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: whitesmoke;
+}
+/* navbar css ends here  */
+
+.my-info{
+    padding: 2rem 5rem;
+}
+
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background: rgba(0, 0, 0, 0.7) url('/img/bg.jpg');
+    color: black!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: rgb(10, 29, 37)!important;
+}
+
+.background{
+    background: rgb(43, 44, 44);
+    margin-bottom: 0px;
+    background-size: cover;
+    background-blend-mode: darken;
+    position:bottom;
+    bottom:0px;
+    left: 0px;
+    height:85px;
+}
+.text-footer{
+    text-align: center;
+    padding: 30px 0;
+   font-family: 'Ubuntu', sans-serif; 
+   display: flex;
+   justify-content: center;
+   color: white;
+   
+}
